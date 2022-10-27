@@ -1,0 +1,93 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width: 1400px) {
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width: 1200px) {
+}
+
+/* md <= Large (lg) */
+@media (max-width: 992px) {
+}
+
+/* sm <= Medium (md) */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid hsla(0, 0%, 90%, 1);
+  }
+
+  .album,
+  .posts-cards {
+    gap: 50px;
+  }
+  .featured-cards {
+    gap: 70px;
+  }
+
+  .upper-links {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  .upper-links-nav {
+    flex-direction: column;
+  }
+
+  .cta {
+    margin-block: 0 2rem;
+  }
+
+  .copyrights {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  .copyrights > span {
+    padding-left: 0;
+  }
+
+  .lower-links {
+    flex-direction: column;
+  }
+  .information-links > li:nth-child(2),
+  .socials-links > li:nth-child(2) {
+    padding-left: 0;
+  }
+  .information-links > li:nth-child(3),
+  .socials-links > li:nth-child(3) {
+    padding-left: 0;
+  }
+}
+
+/* xs <= Small (sm) */
+@media (max-width: 576px) {
+}
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width: 0) {
+}
+
+/* Small (sm) */
+@media (min-width: 576px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+}
+
+/* Large (lg) */
+@media (min-width: 992px) {
+}
+
+/* Extra large (xl) */
+@media (min-width: 1200px) {
+}
+
+/* Extra extra large (xxl) */
+@media (min-width: 1400px) {
+}
